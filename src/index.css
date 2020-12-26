@@ -1,3 +1,36 @@
 body {
   background-color: whitesmoke;
 }
+
+.mine{
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+}
+
+.grade{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.temp{
+  width: 100%;
+  text-align: center;
+  font-size: 36px;
+}
+
+.button{
+  border-radius: 50%;
+  background-color: #54c257;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  width: 36px;
+  height: 36px;
+}
+
+.plus{
+  text-align: center;
+  width: 100%;
+  font-size: 24px;
+}
